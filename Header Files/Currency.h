@@ -25,7 +25,7 @@ class Currency{
 
         //int chatter_score = 0; // Will be added later, how much people are talking about a currency
     private: // What only the Currency class needs to access
-        string get_name();
-        string get_ticket();
-        vector<double> get_currency_data();
+        string get_name(string API_ID);
+        string get_ticket(string API_ID);
+        vector<double> get_currency_data(string API_ID);
 };
