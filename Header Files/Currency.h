@@ -14,6 +14,7 @@ class Currency{
         int max_supply = 0; // Number of coins that can be produced
         float market_cap = total_supply * cost; // Total value of current ciculating crypto
         
+        int purchase_point = 0;
         int one_day_high = 0;
         int one_day_low = 0;
         int seven_day_high = 0;
